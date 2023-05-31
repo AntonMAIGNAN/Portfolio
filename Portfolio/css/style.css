@@ -138,6 +138,10 @@ section h5 {
   padding: 20px;
   border-radius: 5px;
   margin-right: 20px;
+  display: flex; /* Ajout de la propriété display avec la valeur flex */
+  flex-direction: column; /* Ajout de la propriété flex-direction avec la valeur column */
+  align-items: center; /* Pour centrer les éléments horizontalement */
+  text-align: center; /* Pour centrer le texte */
 }
 
 .competences-list h3 {
@@ -173,11 +177,14 @@ section h5 {
   display: flex;
   align-items: center;
   margin-top: 10px;
+  flex-direction: column; /* Ajout de la propriété flex-direction avec la valeur column */
+  text-align: center; /* Pour centrer le texte */
 }
 
 .project img {
   width: 200px;
   margin-right: 20px;
+  order: -1; /* Utilisation de la propriété order pour inverser l'ordre des éléments */
 }
 
 .project p {
@@ -206,6 +213,44 @@ section h5 {
 .bio {
   flex-grow: 1;
 }
+
+/* Media queries pour les téléphones */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  header {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .menu-nav {
+    padding: 10px;
+  }
+
+  .competences-list li {
+    margin-right: 0;
+  }
+
+  .photo-container {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+
+  .project img {
+    width: 100px;
+    margin-right: 10px;
+  }
+}
+
 
 /* Footer */
 footer {
