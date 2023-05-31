@@ -14,13 +14,13 @@ body {
   padding: 20px;
 }
 
-h1{
+h1 {
   color: #ffffff;
   font-weight: bolder;
   font-family: 'Arial';
 }
 
-body{
+body {
   background-color: #f4f3cb;
 }
 
@@ -52,7 +52,7 @@ header {
 
 /* Navigation */
 .menu-nav {
-  background-color: #fed84f; /* Couleur de fond pour le menu de navigation */
+  background-color: #fed84f;
   padding: 20px;
   color: #fff;
 }
@@ -226,7 +226,7 @@ footer a:hover {
   color: #fff;
 }
 
-#a-propos a{
+#a-propos a {
   color: #f9ca24;
   text-decoration: none;
 }
@@ -236,7 +236,7 @@ footer a:hover {
 }
 
 /* Couleurs vives */
- h2, h3, h4{
+h2, h3, h4 {
   color: #000000;
 }
 
@@ -245,9 +245,47 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  color:#333
+a:hover {
+  color: #333;
 }
+
+/* Media queries pour les téléphones */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  header {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .menu-nav {
+    padding: 10px;
+  }
+
+  .competences-list li {
+    margin-right: 0;
+  }
+
+  .photo-container {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+
+  .project img {
+    width: 100px;
+    margin-right: 10px;
+  }
+}
+
 
 
 
