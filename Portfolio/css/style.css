@@ -311,6 +311,35 @@ a:hover {
     margin-bottom: 30px;
   }
 
+  .project p {
+    font-size: 14px; /* Adjust the font size as desired */
+  }
+
+  /* Contact section */
+  #contact {
+    padding: 20px;
+  }
+
+  #contact ul {
+    padding-left: 0;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+  /* Skills and projects section */
+  #competences {
+    padding: 20px;
+  }
+
+  .competences-list li {
+    margin-bottom: 30px;
+  }
+
   /* Contact section */
   #contact {
     padding: 20px;
