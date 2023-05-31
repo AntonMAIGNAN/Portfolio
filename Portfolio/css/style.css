@@ -214,42 +214,7 @@ section h5 {
   flex-grow: 1;
 }
 
-/* Media queries pour les téléphones */
-@media only screen and (max-width: 600px) {
-  body {
-    padding: 10px;
-  }
 
-  .container {
-    max-width: 100%;
-    margin: 0;
-    padding: 0 10px;
-  }
-
-  header {
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-
-  .menu-nav {
-    padding: 10px;
-  }
-
-  .competences-list li {
-    margin-right: 0;
-  }
-
-  .photo-container {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-  }
-
-  .project img {
-    width: 100px;
-    margin-right: 10px;
-  }
-}
 
 
 /* Footer */
@@ -331,7 +296,42 @@ a:hover {
   }
 }
 
+/* Media queries pour les téléphones */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
 
+  .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  header {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .menu-nav {
+    padding: 10px;
+  }
+
+  .competences-list li {
+    margin-right: 0;
+  }
+
+  .photo-container {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+
+  .project img {
+    width: 100px;
+    margin-right: 10px;
+  }
+}
 
 
   
