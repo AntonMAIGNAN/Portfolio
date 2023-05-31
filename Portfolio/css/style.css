@@ -188,8 +188,8 @@ section h5 {
 }
 
 .project p {
-  margin-bottom: 10px;
-}
+    font-size: 14px; /* Adjust the font size as desired */
+  }
 
 .about-content {
   display: flex;
