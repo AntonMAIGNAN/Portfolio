@@ -259,83 +259,70 @@ a:hover {
   color: #333;
 }
 
-/* Media queries pour les téléphones */
-@media only screen and (max-width: 700px) {
-  body {
-    padding: 10px;
-  }
+/* Media queries for mobile devices */
+@media only screen and (max-width: 600px) {
+  /* Adjust the styles for mobile devices here */
 
-  .container {
-    max-width: 100%;
-    margin: 0;
-    padding: 0 10px;
-  }
-
+  /* Header */
   header {
-    padding: 10px;
-    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
   }
 
+  /* Menu navigation */
   .menu-nav {
-    padding: 10px;
+    display: none;
   }
 
-  .competences-list li {
-    margin-right: 0;
+  .menu-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-nav ul li {
+    margin-bottom: 10px;
+  }
+
+  /* About section */
+  #a-propos {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-content {
+    flex-direction: column;
   }
 
   .photo-container {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-  }
-
-  .project img {
-    width: 100px;
-    margin-right: 10px;
-  }
-}
-
-/* Media queries pour les téléphones */
-@media only screen and (max-width:700px) {
-  body {
-    padding: 10px;
-  }
-
-  .container {
-    max-width: 100%;
-    margin: 0;
-    padding: 0 10px;
-  }
-
-  header {
-    padding: 10px;
     margin-bottom: 20px;
   }
 
-  .menu-nav {
-    padding: 10px;
+  .bio {
+    text-align: justify;
+  }
+
+  /* Skills and projects section */
+  #competences {
+    padding: 20px;
   }
 
   .competences-list li {
-    margin-right: 0;
+    margin-bottom: 30px;
   }
 
-  .photo-container {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
+  /* Contact section */
+  #contact {
+    padding: 20px;
   }
 
-  .project img {
-    width: 100px;
-    margin-right: 10px;
+  #contact ul {
+    padding-left: 0;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
   }
 }
-
-
-  
-  
-  
-  
-  
